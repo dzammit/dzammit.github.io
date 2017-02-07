@@ -1,0 +1,95 @@
+#menu a {
+    display: block;
+    width: 135px;
+    height: 16px;
+    margin: 0px;
+    font-family: Arial;
+    text-align: center;
+    line-height: 16px;
+    color: #00DD00;
+    background:#555555;
+	border: 1px solid #555555;
+    
+    text-decoration: none;
+    font-weight:bold; 
+    font-size:13px; 
+    padding-top:1px; 
+    padding-bottom:1px;
+}
+#menu a:hover {
+    color: #33FF33;
+	background: #007755;
+	border: 1px solid gray;
+}
+                
+#menu a:active {
+    color: #2b3fee
+}
+
+A:hover {
+    color: #d40320; 
+    background: #e0e0da;
+    text-decoration: underline
+}
+
+#tp1 { background-color:#a5c5ab; min-height: 225px; height:auto !important; height: 225px }
+#tp2 { background-color:#a5c5ab; min-height: 225px; height:auto !important; height: 225px }
+#tp3 { background-color:#a5c5ab; min-height: 225px; height:auto !important; height: 225px; padding:0; }
+#tp4 { background-color:#a5c5ab; min-height: 225px; height:auto !important; height: 225px }
+#tp5 { background-color:#a5c5ab; min-height: 225px; height:auto !important; height: 225px }
+#tp6 { background-color:#a5c5ab; min-height: 225px; height:auto !important; height: 225px; padding:0; }
+
+/* Columns */
+.c1  { float:left;  width:46%; border:none; }
+.c2  { float:right; width:46%; border:none; }
+.c1w  { float:left;  width:66%; border:none; }
+.c2n  { float:right; width:26%; border:none; }
+.c1n  { float:left;  width:26%; border:none; }
+.c2w  { float:right; width:66%; border:none; }
+
+#bottom
+{
+	border:none;
+	width: auto;
+	height:auto; 
+	float:left;
+}
+
+/* links */
+ul.tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 90%;
+}
+ul.tabs li {
+	position: relative;
+	float: left;
+	width: 6em;
+	margin: 0;
+	padding: 0 4px 0 0;
+}
+ul.tabs a {
+	display: block;
+	width: 5em;
+	padding: .5em;
+	border: 1px solid #050;
+	border-bottom: none;
+	border-top-width: 0px;
+	text-decoration: none;
+	background: #111;
+	color: #0F0;
+}
+ul.tabs a.active, ul.tabs a:link.active, ul.tabs a:visited.active {
+	background: #552;
+	color: #8F0;
+	font-weight: bold;
+	position: relative;
+}
+
+/* panels */
+div.tabs div.tabs {
+	clear: left;
+	padding: .3em;
+	border: 1px solid #063;
+}
